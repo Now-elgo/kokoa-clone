@@ -4,9 +4,13 @@
 
 /* Components*/
 @import "components/status-bar.css";
+@import "components/navigation-bar.css";
+@import "components/screen-header.css";
+@import "components/user-components.css";
 
 /* Screens*/
 @import "screens/login.css";
+@import "screens/friends.css";
 
 body {
   font-family: "Open Sans", serif;
@@ -14,4 +18,5 @@ body {
   font-weight: 500;
   font-style: normal;
   font-variation-settings: "wdth" 100;
+  height: 1000vh;
 }

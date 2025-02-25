@@ -1,8 +1,11 @@
 .status-bar {
+  position: sticky;
+  top: 0px;
+  width: 100%;
   display: flex;
   justify-content: center;
   padding: 5px 3px;
-  background-color: rgb(0, 0, 0, 0.05);
+  background-color: var(--light-gray);
 }
 .status-bar__column {
   width: 33%;
