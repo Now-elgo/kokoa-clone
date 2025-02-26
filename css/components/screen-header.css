@@ -13,6 +13,28 @@
   font-size: 25px;
   font-weight: 600;
 }
-.screen-header__icons span {
+.screen-header__icons > span {
   margin-left: 20px;
+  position: relative;
+}
+.screen-header__icons-plus {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+  top: 5px;
+  right: -1px;
+
+  width: 10px;
+  height: 10px;
+  border-radius: 50%;
+  background-color: white;
+  font-size: 13px;
+  font-weight: 600;
+}
+
+.screen-header__icons-dot {
+  position: absolute;
+  right: -8px;
+  top: -4px;
 }

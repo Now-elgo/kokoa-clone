@@ -10,9 +10,7 @@
 #friends-link i {
   color: rgba(0, 0, 0, 0.2);
 }
-.friends-screen {
-  padding: 0px var(--horizontal-space);
-}
+
 .friends-screen__channel {
   margin-top: 18px;
   border-top: 1px solid rgb(215, 215, 215);
