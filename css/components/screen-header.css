@@ -1,6 +1,6 @@
 .screen-header {
   position: sticky;
-  top: 26px;
+  top: 25px;
   width: 100%;
   box-sizing: border-box;
   display: flex;
@@ -37,4 +37,15 @@
   position: absolute;
   right: -8px;
   top: -4px;
+}
+.gear-spin:hover {
+  animation: spin 2s infinite linear;
+}
+@keyframes spin {
+  from {
+    transform: none;
+  }
+  to {
+    transform: rotateZ(360deg);
+  }
 }

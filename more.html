@@ -22,22 +22,18 @@
       </div>
     </div>
     <header class="screen-header">
-      <h1 class="screen-header__title">Friends</h1>
+      <h1 class="screen-header__title">More</h1>
       <div class="screen-header__icons">
         <span><i class="fa-solid fa-magnifying-glass fa-lg"></i></span>
         <span><i class="fa-solid fa-music fa-lg"></i></span>
         <span>
+          <span class="screen-header__icons-dot dot"></span>
           <a href="settings.html">
             <i class="fa-solid fa-gear fa-lg gear-spin"></i>
           </a>
         </span>
       </div>
     </header>
-
-    <a id="friends-link">
-      <i class="fa-solid fa-circle-info"></i> Friends' Names Display
-      <i class="fa-solid fa-chevron-right fa-xs"></i>
-    </a>
 
     <main class="main-screen">
       <div class="user-component">
@@ -50,29 +46,66 @@
             <h4 class="user-component__name user-component__name--bold">
               Elgo
             </h4>
-            <!--<h6 class="user-component__briefing">elgo is best</h6>-->
+            <h6 class="user-component__briefing">
+              <span>+1 787-493-4219</span>
+              <i class="fa-solid fa-circle-info"></i>
+            </h6>
           </div>
         </div>
-        <div class="user-component__column"></div>
+        <div class="user-component__column">
+          <i class="fa-solid fa-list fa-2x"></i>
+        </div>
       </div>
-      <div class="friends-screen__channel">
-        <div class="friends-screen__channel-header">
-          <span class="">Channel</span>
-          <span><i class="fa-solid fa-chevron-up fa-xs"></i></span>
+
+      <div class="more-container">
+        <div class="more-item">
+          <span><i class="fa-regular fa-calendar"></i></span>
+          <span>Calendar</span>
         </div>
-        <div class="user-component">
-          <div class="user-component__column">
+        <div class="more-item">
+          <span><i class="fa-regular fa-hard-drive"></i></span>
+          <span>Talk Drive</span>
+        </div>
+        <div class="more-item">
+          <span><i class="fa-regular fa-face-smile-wink"></i></span>
+          <span>Emoticons</span>
+        </div>
+        <div class="more-item">
+          <span><i class="fa-solid fa-brush"></i></span>
+          <span>Themes</span>
+        </div>
+        <div class="more-item">
+          <span><i class="fa-solid fa-key"></i></span>
+          <span>Account</span>
+        </div>
+        <div class="more-item">
+          <span><i class="fa-regular fa-comments"></i></span>
+          <span>Openchat</span>
+        </div>
+      </div>
+      <div class="more-suggestions">
+        <span class="more-suggestions-title">Suggestions</span>
+        <div class="more-suggestions__container">
+          <div class="more-suggestions__item">
             <img
-              class="user-component__img user-component__img--sm"
-              src="https://d1telmomo28umc.cloudfront.net/media/public/avatars/serranoarevalo-1679363190.jpg"
+              src="https://upload.wikimedia.org/wikipedia/en/a/ab/KakaoStory_Logo.png"
+              alt=""
             />
-            <div class="user-component__text">
-              <h4 class="user-component__name">Nomad Coder</h4>
-              <!--<h6 class="user-component__briefing">elgo is best</h6>-->
-            </div>
+            <span>Kokoa Story</span>
           </div>
-          <div class="user-component__column">
-            <div>2&nbsp;<i class="fa-solid fa-chevron-right fa-xs"></i></div>
+          <div class="more-suggestions__item">
+            <img
+              src="https://t1.kakaocdn.net/thumb/R1920x0.fwebp.q100/?fname=https%3A%2F%2Ft1.kakaocdn.net%2Fkakaocorp%2Fkakaocorp%2Fadmin%2Fservice%2Fa85d3dc6017900001.jpg"
+              alt=""
+            />
+            <span>Kokoa friends</span>
+          </div>
+          <div class="more-suggestions__item">
+            <img
+              src="https://play-lh.googleusercontent.com/GP-qRrfaS4u67LeReky8i4MQehEM_OvG9LawVj2Ws_kZYGw93g2VWB-0Cik8mTqkwXI"
+              alt=""
+            />
+            <span>Kokoa games</span>
           </div>
         </div>
       </div>
@@ -81,7 +114,9 @@
     <nav class="nav">
       <ul class="nav__ul">
         <li class="nav__li">
-          <a class="nav__a" href="#"><i class="fa-solid fa-user fa-2x"></i></a>
+          <a class="nav__a" href="friends.html"
+            ><i class="fa-regular fa-user fa-2x"></i
+          ></a>
         </li>
         <li class="nav__li">
           <a class="nav__a" href="chats.html">
@@ -102,11 +137,6 @@
         </li>
       </ul>
     </nav>
-
-    <div id="splash-screen">
-      <i class="fa-solid fa-comment"></i>
-    </div>
-
     <div class="no-mobile">
       <span class="big-screen">Your screen is too big</span>
       <span class="small-screen">Your screen is too small</span>

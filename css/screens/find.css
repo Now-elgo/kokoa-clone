@@ -1,23 +1,22 @@
 /* find bar */
 .find-bar {
   display: flex;
+  height: 60px;
   justify-content: space-between;
-  padding: 15px 0px;
+  padding: 20px 0px;
 }
 .find-bar span {
-  width: 20%;
   display: flex;
+  width: 20%;
   flex-direction: column;
   justify-content: space-around;
   align-items: center;
   text-align: center;
 }
 .find-bar span div {
-  height: 50%;
+  height: 100%;
 }
 .find-bar__content {
-  display: flex;
-  align-items: center;
   margin-top: 15px;
   font-size: 14px;
 }
@@ -117,4 +116,23 @@
   background-color: rgba(0, 0, 0, 0.5);
   color: white;
   font-size: 12px;
+  font-weight: 400;
+}
+.find-openchat__contents-likes i {
+  margin-right: 3px;
+}
+.find-openchat__contents-likes:hover i {
+  animation: heartBeat 0.8s infinite;
+}
+@keyframes heartBeat {
+  0% {
+    transform: none;
+  }
+  60% {
+    transform: scale(1.5);
+    color: red;
+  }
+  100% {
+    transform: none;
+  }
 }

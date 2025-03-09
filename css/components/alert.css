@@ -10,6 +10,37 @@
   font-size: 13px;
   font-weight: 600;
 }
+.alert-msg {
+  animation: upNdown 2s infinite;
+}
+@keyframes upNdown {
+  0% {
+    transform: none;
+  }
+  24% {
+    transform: translateY(-5px);
+    box-shadow: 0px 0px 10px 0px tomato;
+  }
+  36% {
+    transform: none;
+  }
+  42% {
+    transform: translatey(-2px);
+  }
+  48% {
+    transform: none;
+  }
+  51% {
+    transform: translateY(-1px);
+  }
+  54% {
+    transform: none;
+  }
+  100% {
+    transform: none;
+  }
+}
+
 .dot {
   display: block;
   width: 6px;
